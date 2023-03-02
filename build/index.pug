@@ -1,0 +1,46 @@
+doctype html
+html
+  head
+    |  
+    title In Progress
+    link(rel='stylesheet', type='text/css', href='css/kahua.css')
+    link(rel='stylesheet', type='text/css', href='css/normalize.css')
+    link(rel='stylesheet', type='text/css', href='css/flexboxgrid.min.css') 
+    link(rel='stylesheet', type='text/css', href='font/stylesheet.css')
+    link(rel='stylesheet' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css')
+    |  
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')    
+    |  
+  body
+    .banner
+    nav 
+      .nav-container
+        .row
+          .col-lg-12
+            ul.nav-info
+              li
+                img(src='img/logo.png', alt='Nonduality', class='logo')
+
+    header
+      .row
+        .col-lg-12
+          .box
+            h1  Ahkeewadnjhg 🖖🏼
+            p The essence of being human is about acknowledging our fundamental ability to create and be creative. As Joseph Beuys says: “Everyone is an artist.” I'm just someone exploring the intersection of technology and art with great curiosity.
+            //a(href='/about.html' target='_self') more about me →
+
+            ul.ic-social
+              li
+                https://opensea.io/ahkeewan-art
+              li
+                https://twitter.com/hom
+              li
+                i.fa.fa-github
+
+    footer
+      p ©
+      p#copyright 
+      p ahkeewan-art
+
+    script.
+      document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
